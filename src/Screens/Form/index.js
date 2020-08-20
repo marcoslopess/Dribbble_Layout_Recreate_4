@@ -36,7 +36,7 @@ export default function FormScreen(){
         if( name === '' || email === '' || password === '' ){
             setErrorMessage('Please Fill In All The Fields!');
         }else{
-            navigate('Others');
+            navigate('Others', { name });
         }
     }
 

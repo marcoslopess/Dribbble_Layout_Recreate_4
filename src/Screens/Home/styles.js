@@ -6,4 +6,4 @@ export const Container = styled.View`
     align-items:center;
 `;
 
-export const Title = styled.Text``;
+export const Hello = styled.Text``;

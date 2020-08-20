@@ -12,7 +12,7 @@ export default function StackRoutes(){
     return(
         <NavigationContainer>
 
-            <Navigator headerMode="none" initialRouteName="Others">
+            <Navigator headerMode="none" initialRouteName="Initial">
 
                 <Screen name="Initial" component={ InitialScreen } />
                 <Screen name="Form" component={ FormScreen } />

@@ -13,8 +13,6 @@ export default function Header( props ){
 
                 <FontAwesome name={ props.name } size={ 23 } color="#d3d3d3" />
 
-                {console.log(props)}
-
             </IconButton>
 
         </Container>

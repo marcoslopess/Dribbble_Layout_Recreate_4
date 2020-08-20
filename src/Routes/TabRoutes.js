@@ -13,7 +13,7 @@ import ButtonTab from '../Components/ButtomTab';
 
 const { Navigator, Screen } = createBottomTabNavigator();
 
-export default function TabRoutes(){
+export default function TabRoutes({ route }){
     return(
         <NavigationContainer independent={ true }>
 
@@ -33,7 +33,8 @@ export default function TabRoutes(){
                         tabBarIcon: ({ color }) => (
                             <Entypo name="home" size={ 23 } color={ color } />
                         )
-                    }} 
+                    }}
+                    initialParams={ route.params } 
                 />
                 <Screen 
                     name="Learn" 
