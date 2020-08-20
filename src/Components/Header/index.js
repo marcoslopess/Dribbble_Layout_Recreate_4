@@ -1,5 +1,5 @@
 import React from 'react';
-import { MaterialCommunityIcons } from '@expo/vector-icons';
+import { FontAwesome } from '@expo/vector-icons';
 
 import { Container, DateText, IconButton } from './styles';
 
@@ -11,7 +11,7 @@ export default function Header(){
 
             <IconButton>
 
-                <MaterialCommunityIcons name="bell" size={ 23 } color="#d3d3d3" />
+                <FontAwesome name="bell" size={ 23 } color="#d3d3d3" />
 
             </IconButton>
 
