@@ -1,13 +1,15 @@
 import React from 'react';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 
-import { Container, Date, IconButton } from './styles';
+import { Container, DateText, IconButton } from './styles';
 
 export default function Header(){
+    const date = new Date();
+
     return(
         <Container>
 
-            <Date>{Date.now}</Date>
+            <DateText>{Date().slice(0, 3)}, {Date().slice(8, 10)} {Date().slice(4, 7)} </DateText>
 
             <IconButton>
 

@@ -3,13 +3,13 @@ import { Platform } from 'react-native';
 
 export const Container = styled.View`
     width:85%;
-    margin-top: ${ Platform.OS === 'android' ? '60px' : '0' };
+    margin-top: ${ Platform.OS === 'android' ? '80px' : '0' };
     flex-direction:row;
     align-items:center;
     justify-content:space-between;
 `;
 
-export const Date = styled.Text`
+export const DateText = styled.Text`
     color:#d3d3d3;
     font-size:15px;
 `;
