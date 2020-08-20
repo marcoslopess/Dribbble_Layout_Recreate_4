@@ -5,8 +5,11 @@ import { Entypo, FontAwesome, Octicons, MaterialIcons } from '@expo/vector-icons
 
 import HomeScreen from '../Screens/Home';
 import LearnScreen from '../Screens/Learn';
+import MyoMusScreen from '../Screens/MyoMus';
 import ProgressScreen from '../Screens/Progress';
 import ProfileScreen from '../Screens/Profile';
+
+import ButtonTab from '../Components/ButtomTab';
 
 const { Navigator, Screen } = createBottomTabNavigator();
 
@@ -19,7 +22,7 @@ export default function TabRoutes(){
                     backgroundColor:'#17324f',
                     borderTopColor:'transparent'
                 },
-                activeTintColor:'#91c704',
+                activeTintColor:'#b9ff03',
                 inactiveTintColor:'#fff',
             }}>
 
@@ -41,6 +44,19 @@ export default function TabRoutes(){
                         )
                     }} 
                 />
+
+                <Screen 
+                    name="MyoMus" 
+                    component={ MyoMusScreen }
+                    options={{
+                        title: '',
+                        tabBarIcon:({ size, color }) => (
+                            <ButtonTab />
+                        )
+                        
+                    }}
+                />
+
                 <Screen 
                     name="Progress" 
                     component={ ProgressScreen }
