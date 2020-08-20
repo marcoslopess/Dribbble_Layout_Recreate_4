@@ -8,7 +8,7 @@ export default function HomeScreen(){
     return(
         <Container>
 
-            <Header />
+            <Header name="search"/>
 
         </Container>
     )

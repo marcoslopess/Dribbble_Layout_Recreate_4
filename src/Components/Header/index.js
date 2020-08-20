@@ -3,7 +3,7 @@ import { FontAwesome } from '@expo/vector-icons';
 
 import { Container, DateText, IconButton } from './styles';
 
-export default function Header(){
+export default function Header( props ){
     return(
         <Container>
 
@@ -11,7 +11,9 @@ export default function Header(){
 
             <IconButton>
 
-                <FontAwesome name="bell" size={ 23 } color="#d3d3d3" />
+                <FontAwesome name={ props.name } size={ 23 } color="#d3d3d3" />
+
+                {console.log(props)}
 
             </IconButton>
 
