@@ -23,7 +23,7 @@ export default function HomeScreen({ route }){
     return(
         <Container>
 
-            <Header name="search"/>
+            <Header name="bell"/>
 
             <Hello>Hi, {route.params.name}!</Hello>
 
