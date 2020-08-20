@@ -11,7 +11,7 @@ export default function Header( props ){
 
             <IconButton>
 
-                <FontAwesome name={ props.name } size={ 23 } color="#d3d3d3" />
+                <FontAwesome name={ props.name } size={ 23 } color="rgba(255,255,255,0.3)" />
 
             </IconButton>
 

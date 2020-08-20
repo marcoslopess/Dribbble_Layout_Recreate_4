@@ -10,7 +10,7 @@ export const Container = styled.View`
 `;
 
 export const DateText = styled.Text`
-    color:#d3d3d3;
+    color:rgba(255,255,255,0.3);
     font-size:16px;
 `;
 
