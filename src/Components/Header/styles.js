@@ -11,7 +11,7 @@ export const Container = styled.View`
 
 export const DateText = styled.Text`
     color:#d3d3d3;
-    font-size:15px;
+    font-size:16px;
 `;
 
 export const IconButton = styled.TouchableOpacity``;

@@ -4,8 +4,6 @@ import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { Container, DateText, IconButton } from './styles';
 
 export default function Header(){
-    const date = new Date();
-
     return(
         <Container>
 
